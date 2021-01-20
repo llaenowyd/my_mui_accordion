@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
   },
   segmentHeadingIconButton: {
     marginLeft: 'auto',
-    maxHeight: spacing => theme.spacing(spacing),
+    maxHeight: spacing => theme.spacing(spacing), // tbd derive from lineHeight of text in segmentHeading
     maxWidth: spacing => theme.spacing(spacing),
   },
 }))
